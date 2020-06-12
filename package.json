@@ -1,13 +1,13 @@
 {
-  "name": "script_downloader",
+  "name": "lastcollage-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "qs-to-png.js",
+  "description": "Generate a collage of your most played Last.fm albums from the command line",
+  "main": "index.js",
   "scripts": {
-    "start": "node qs-to-png.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Alex White",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.6.0"
