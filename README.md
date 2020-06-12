@@ -1,6 +1,13 @@
-# Last.fm Collage Generator (command line)
+# lastcollage-cli: Command Line Last.fm Collage Generator
 
-# Pre-requisites
+# Introduction
+For a web-based UI, checkout [Lastcollage](https://lastcollage.io).
+
+This script generates a collage based on your Last.fm scrobbles, and saves it as a PNG image.
+
+![Example collage](https://lastcollage.io/images/6ae22bff075de478d971fa062f237e550fb3514c.webp "Example collage")
+
+# Prerequisites
 - Install [Node.js](https://nodejs.org/en/) version 8.0.0 or higher
 
 # Getting started
