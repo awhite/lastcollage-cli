@@ -1,0 +1,15 @@
+{
+  "name": "script_downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "qs-to-png.js",
+  "scripts": {
+    "start": "node qs-to-png.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
