@@ -3,24 +3,13 @@ const path = require('path');
 const fetch = require('node-fetch');
 const { Headers } = fetch;
 
+const { savePath, params } = require('./config')
+
 let myHeaders = new Headers();
 myHeaders.append('Content-Type', 'application/json');
 
-// change this to where you want the image to save
-const savePath = `${process.env.HOME}/Desktop/collage.png`;
+let raw = JSON.stringify(params);
 
-// change data here
-let raw = JSON.stringify({
-  username: 'aaapwww',
-  period: 'forever',
-  rowNum: '3',
-  colNum: '3',
-  type: 'albums',
-  showName: 'false',
-  hideMissing: 'false'
-});
-
-// request options for the first request
 let requestOptions = {
   method: 'POST',
   headers: myHeaders,
@@ -44,5 +33,5 @@ fetch('https://lastcollage.io/api/collage', requestOptions)
     response.body.on('error', reject);
     response.body.on('finish', resolve);
   }))
-  .then(console.log('finished'))
+  .then(console.log('success'))
   .catch(error => console.log('error', error));
