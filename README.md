@@ -1,11 +1,11 @@
 # lastcollage-cli: Command Line Last.fm Collage Generator
+![Example collage](https://lastcollage.io/images/6ae22bff075de478d971fa062f237e550fb3514c.webp "Example collage")
 
 # Introduction
 For a web-based UI, checkout [Lastcollage](https://lastcollage.io).
 
 This script generates a collage based on your Last.fm scrobbles, and saves it as a PNG image.
 
-![Example collage](https://lastcollage.io/images/6ae22bff075de478d971fa062f237e550fb3514c.webp "Example collage")
 
 # Prerequisites
 - Install [Node.js](https://nodejs.org/en/) version 8.0.0 or higher
@@ -13,7 +13,7 @@ This script generates a collage based on your Last.fm scrobbles, and saves it as
 # Getting started
 - Clone the repository
 ```
-git clone  https://github.com/awhite/lastcollage-cli.git
+git clone https://github.com/awhite/lastcollage-cli.git
 ```
 - Install dependencies
 ```
