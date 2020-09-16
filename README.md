@@ -26,9 +26,9 @@ module.exports = {
   params: {
     username: 'your_lastfm_username',
     period: 'forever',    // Accepted values: 'forever', '1week', '1month', '3month', '6month', '1year'
-    rowNum: '3',          // Supports values in the range of [1, 20]
+    rowNum: '3',          // Supports integer values in the range of [1, 20]
     colNum: '3',          // Same as above
-    type: 'albums',       // Experimental support for 'artists' and 'tracks' as well
+    type: 'albums',       // Accepted values: 'albums', 'artists', 'tracks'
     showName: 'false',    // 'true' or 'false'
     hideMissing: 'false'  // 'true' or 'false'
   },
